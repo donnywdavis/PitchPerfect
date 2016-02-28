@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417353CA1C833C5D0012E557 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417353C91C833C5D0012E557 /* PlaySoundsViewController.swift */; };
 		419140B11C82B63500210553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419140B01C82B63500210553 /* AppDelegate.swift */; };
 		419140B31C82B63500210553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419140B21C82B63500210553 /* ViewController.swift */; };
 		419140B61C82B63500210553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419140B41C82B63500210553 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		417353C91C833C5D0012E557 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		419140AD1C82B63500210553 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		419140B01C82B63500210553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		419140B21C82B63500210553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				419140B01C82B63500210553 /* AppDelegate.swift */,
 				419140B21C82B63500210553 /* ViewController.swift */,
 				419140B41C82B63500210553 /* Main.storyboard */,
+				417353C91C833C5D0012E557 /* PlaySoundsViewController.swift */,
 				419140B71C82B63500210553 /* Assets.xcassets */,
 				419140C21C82B72F00210553 /* movie_quote.mp3 */,
 				419140B91C82B63500210553 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				419140B31C82B63500210553 /* ViewController.swift in Sources */,
+				417353CA1C833C5D0012E557 /* PlaySoundsViewController.swift in Sources */,
 				419140B11C82B63500210553 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				419140C11C82B63500210553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
