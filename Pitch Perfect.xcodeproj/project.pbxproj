@@ -12,6 +12,7 @@
 		419140B61C82B63500210553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419140B41C82B63500210553 /* Main.storyboard */; };
 		419140B81C82B63500210553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419140B71C82B63500210553 /* Assets.xcassets */; };
 		419140BB1C82B63500210553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419140B91C82B63500210553 /* LaunchScreen.storyboard */; };
+		419140C31C82B72F00210553 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 419140C21C82B72F00210553 /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		419140B71C82B63500210553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419140BA1C82B63500210553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		419140BC1C82B63500210553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419140C21C82B72F00210553 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				419140B21C82B63500210553 /* ViewController.swift */,
 				419140B41C82B63500210553 /* Main.storyboard */,
 				419140B71C82B63500210553 /* Assets.xcassets */,
+				419140C21C82B72F00210553 /* movie_quote.mp3 */,
 				419140B91C82B63500210553 /* LaunchScreen.storyboard */,
 				419140BC1C82B63500210553 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				419140BB1C82B63500210553 /* LaunchScreen.storyboard in Resources */,
 				419140B81C82B63500210553 /* Assets.xcassets in Resources */,
+				419140C31C82B72F00210553 /* movie_quote.mp3 in Resources */,
 				419140B61C82B63500210553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
