@@ -127,15 +127,24 @@
                                     <action selector="stopPlayingAudio:" destination="vHy-hW-hsg" eventType="touchUpInside" id="R0i-Ln-qRi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yon-Vr-nye">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Chipmunk"/>
+                                <connections>
+                                    <action selector="playChipmunkAudio:" destination="vHy-hW-hsg" eventType="touchUpInside" id="31d-cs-S7C"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ewH-em-Ax1" firstAttribute="leading" secondItem="ZVJ-vi-Qyb" secondAttribute="leadingMargin" constant="40" id="ACK-6P-Hfo"/>
+                            <constraint firstItem="Yon-Vr-nye" firstAttribute="leading" secondItem="ZVJ-vi-Qyb" secondAttribute="leadingMargin" constant="40" id="Fdt-QJ-6OJ"/>
                             <constraint firstItem="iDJ-TP-vHJ" firstAttribute="centerX" secondItem="ZVJ-vi-Qyb" secondAttribute="centerX" id="FmY-lc-8Dr"/>
                             <constraint firstItem="iDJ-TP-vHJ" firstAttribute="centerY" secondItem="ZVJ-vi-Qyb" secondAttribute="centerY" constant="203" id="GXi-0n-kqM">
                                 <variation key="widthClass=compact" constant="225"/>
                             </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="cTJ-dU-VFm" secondAttribute="trailing" constant="40" id="bR2-2o-wkz"/>
+                            <constraint firstItem="Yon-Vr-nye" firstAttribute="top" secondItem="ewH-em-Ax1" secondAttribute="bottom" constant="70" id="lwW-Gb-B7E"/>
                             <constraint firstItem="cTJ-dU-VFm" firstAttribute="top" secondItem="bN1-Pv-boE" secondAttribute="bottom" constant="50" id="wfN-fH-V2g"/>
                             <constraint firstItem="ewH-em-Ax1" firstAttribute="top" secondItem="bN1-Pv-boE" secondAttribute="bottom" constant="50" id="zvK-kO-6OE"/>
                         </constraints>
@@ -144,12 +153,15 @@
                                 <exclude reference="ewH-em-Ax1"/>
                                 <exclude reference="cTJ-dU-VFm"/>
                                 <exclude reference="iDJ-TP-vHJ"/>
+                                <exclude reference="Yon-Vr-nye"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="bR2-2o-wkz"/>
-                                <exclude reference="wfN-fH-V2g"/>
                                 <exclude reference="ACK-6P-Hfo"/>
                                 <exclude reference="zvK-kO-6OE"/>
+                                <exclude reference="bR2-2o-wkz"/>
+                                <exclude reference="wfN-fH-V2g"/>
+                                <exclude reference="Fdt-QJ-6OJ"/>
+                                <exclude reference="lwW-Gb-B7E"/>
                                 <exclude reference="FmY-lc-8Dr"/>
                                 <exclude reference="GXi-0n-kqM"/>
                             </mask>
@@ -159,12 +171,15 @@
                                 <include reference="ewH-em-Ax1"/>
                                 <include reference="cTJ-dU-VFm"/>
                                 <include reference="iDJ-TP-vHJ"/>
+                                <include reference="Yon-Vr-nye"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="bR2-2o-wkz"/>
-                                <include reference="wfN-fH-V2g"/>
                                 <include reference="ACK-6P-Hfo"/>
                                 <include reference="zvK-kO-6OE"/>
+                                <include reference="bR2-2o-wkz"/>
+                                <include reference="wfN-fH-V2g"/>
+                                <include reference="Fdt-QJ-6OJ"/>
+                                <include reference="lwW-Gb-B7E"/>
                                 <include reference="FmY-lc-8Dr"/>
                                 <include reference="GXi-0n-kqM"/>
                             </mask>
@@ -195,6 +210,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chipmunk" width="100" height="100"/>
         <image name="Fast" width="100" height="100"/>
         <image name="Microphone" width="100" height="100"/>
         <image name="Slow" width="100" height="100"/>
