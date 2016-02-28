@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -43,7 +44,9 @@
                         <constraints>
                             <constraint firstItem="4fH-bP-JEW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3ee-f9-122"/>
                             <constraint firstItem="3rL-nP-WYA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="68.5" id="7t3-GZ-fLI"/>
-                            <constraint firstItem="4fH-bP-JEW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="189" id="EHr-ow-zLA"/>
+                            <constraint firstItem="4fH-bP-JEW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="189" id="EHr-ow-zLA">
+                                <variation key="widthClass=compact" constant="225"/>
+                            </constraint>
                             <constraint firstItem="i0Y-V9-Kta" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ahn-XE-00r"/>
                             <constraint firstItem="3rL-nP-WYA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mE1-jO-ayt"/>
                             <constraint firstItem="i0Y-V9-Kta" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tbG-30-8Ob"/>
@@ -100,6 +103,7 @@
                         <viewControllerLayoutGuide type="bottom" id="eqL-OR-Ysz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZVJ-vi-Qyb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewH-em-Ax1">
@@ -128,7 +132,9 @@
                         <constraints>
                             <constraint firstItem="ewH-em-Ax1" firstAttribute="leading" secondItem="ZVJ-vi-Qyb" secondAttribute="leadingMargin" constant="40" id="ACK-6P-Hfo"/>
                             <constraint firstItem="iDJ-TP-vHJ" firstAttribute="centerX" secondItem="ZVJ-vi-Qyb" secondAttribute="centerX" id="FmY-lc-8Dr"/>
-                            <constraint firstItem="iDJ-TP-vHJ" firstAttribute="centerY" secondItem="ZVJ-vi-Qyb" secondAttribute="centerY" constant="203" id="GXi-0n-kqM"/>
+                            <constraint firstItem="iDJ-TP-vHJ" firstAttribute="centerY" secondItem="ZVJ-vi-Qyb" secondAttribute="centerY" constant="203" id="GXi-0n-kqM">
+                                <variation key="widthClass=compact" constant="225"/>
+                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="cTJ-dU-VFm" secondAttribute="trailing" constant="40" id="bR2-2o-wkz"/>
                             <constraint firstItem="cTJ-dU-VFm" firstAttribute="top" secondItem="bN1-Pv-boE" secondAttribute="bottom" constant="50" id="wfN-fH-V2g"/>
                             <constraint firstItem="ewH-em-Ax1" firstAttribute="top" secondItem="bN1-Pv-boE" secondAttribute="bottom" constant="50" id="zvK-kO-6OE"/>
@@ -140,10 +146,10 @@
                                 <exclude reference="iDJ-TP-vHJ"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ACK-6P-Hfo"/>
-                                <exclude reference="zvK-kO-6OE"/>
                                 <exclude reference="bR2-2o-wkz"/>
                                 <exclude reference="wfN-fH-V2g"/>
+                                <exclude reference="ACK-6P-Hfo"/>
+                                <exclude reference="zvK-kO-6OE"/>
                                 <exclude reference="FmY-lc-8Dr"/>
                                 <exclude reference="GXi-0n-kqM"/>
                             </mask>
@@ -155,10 +161,10 @@
                                 <include reference="iDJ-TP-vHJ"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ACK-6P-Hfo"/>
-                                <include reference="zvK-kO-6OE"/>
                                 <include reference="bR2-2o-wkz"/>
                                 <include reference="wfN-fH-V2g"/>
+                                <include reference="ACK-6P-Hfo"/>
+                                <include reference="zvK-kO-6OE"/>
                                 <include reference="FmY-lc-8Dr"/>
                                 <include reference="GXi-0n-kqM"/>
                             </mask>
