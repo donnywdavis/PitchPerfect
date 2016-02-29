@@ -29,7 +29,7 @@
 		419140BC1C82B63500210553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		419140C21C82B72F00210553 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
 		41F7D92E1C83AFCC00DBB6F0 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
-		41F7D9301C83CF6800DBB6F0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		41F7D9301C83CF6800DBB6F0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = "Pitch Perfect/.gitignore"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +46,7 @@
 		419140A41C82B63500210553 = {
 			isa = PBXGroup;
 			children = (
+				41F7D9301C83CF6800DBB6F0 /* .gitignore */,
 				419140AF1C82B63500210553 /* Pitch Perfect */,
 				419140AE1C82B63500210553 /* Products */,
 			);
@@ -67,7 +68,6 @@
 				41F7D92E1C83AFCC00DBB6F0 /* RecordedAudio.swift */,
 				419140B41C82B63500210553 /* Main.storyboard */,
 				417353C91C833C5D0012E557 /* PlaySoundsViewController.swift */,
-				41F7D9301C83CF6800DBB6F0 /* .gitignore */,
 				419140B71C82B63500210553 /* Assets.xcassets */,
 				419140C21C82B72F00210553 /* movie_quote.mp3 */,
 				419140B91C82B63500210553 /* LaunchScreen.storyboard */,
