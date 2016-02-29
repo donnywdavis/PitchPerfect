@@ -15,6 +15,7 @@
 		419140BB1C82B63500210553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419140B91C82B63500210553 /* LaunchScreen.storyboard */; };
 		419140C31C82B72F00210553 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 419140C21C82B72F00210553 /* movie_quote.mp3 */; };
 		41F7D92F1C83AFCC00DBB6F0 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7D92E1C83AFCC00DBB6F0 /* RecordedAudio.swift */; };
+		41F7D9311C83CF6800DBB6F0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 41F7D9301C83CF6800DBB6F0 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		419140BC1C82B63500210553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		419140C21C82B72F00210553 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
 		41F7D92E1C83AFCC00DBB6F0 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		41F7D9301C83CF6800DBB6F0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				41F7D92E1C83AFCC00DBB6F0 /* RecordedAudio.swift */,
 				419140B41C82B63500210553 /* Main.storyboard */,
 				417353C91C833C5D0012E557 /* PlaySoundsViewController.swift */,
+				41F7D9301C83CF6800DBB6F0 /* .gitignore */,
 				419140B71C82B63500210553 /* Assets.xcassets */,
 				419140C21C82B72F00210553 /* movie_quote.mp3 */,
 				419140B91C82B63500210553 /* LaunchScreen.storyboard */,
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F7D9311C83CF6800DBB6F0 /* .gitignore in Resources */,
 				419140BB1C82B63500210553 /* LaunchScreen.storyboard in Resources */,
 				419140B81C82B63500210553 /* Assets.xcassets in Resources */,
 				419140C31C82B72F00210553 /* movie_quote.mp3 in Resources */,
