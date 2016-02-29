@@ -47,6 +47,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         let session = AVAudioSession.sharedInstance()
         try! session.setCategory(AVAudioSessionCategoryPlayAndRecord)
         try! audioRecorder = AVAudioRecorder(URL: filePath!, settings: [:])
+        audioRecorder.delegate = self
         audioRecorder.meteringEnabled = true
         audioRecorder.prepareToRecord()
         audioRecorder.record()
@@ -59,6 +60,11 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
             recordedAudio.title = recorder.url.lastPathComponent
         
             self.performSegueWithIdentifier("stopRecording", sender: recordedAudio)
+        } else {
+            print("Recording was not successful!")
+            recordButton.enabled = true
+            recordingLabel.hidden = true
+            stopButton.hidden = true
         }
     }
     

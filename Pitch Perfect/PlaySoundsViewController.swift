@@ -48,6 +48,10 @@ class PlaySoundsViewController: UIViewController {
         playAudioWithVariablePitch(1000)
     }
     
+    @IBAction func playDarthVaderAudio(sender: UIButton) {
+        playAudioWithVariablePitch(-1000)
+    }
+    
     @IBAction func stopPlayingAudio(sender: UIButton) {
         resetAudio()
     }
